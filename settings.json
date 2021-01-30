@@ -1,0 +1,8 @@
+{
+	"provider_type" : "json",
+	"base_command" 	: "Core\\Command",
+	"config"		: "Configs/configCompany.xml",
+	"views"			: "Views",
+	"commands"		: "Commands",
+	"data"			: "Data"	
+}

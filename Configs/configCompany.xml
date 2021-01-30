@@ -1,0 +1,21 @@
+<control>
+	<view>mainCompany</view>
+	<view status="CMD_OK" >mainCompany</view>
+	<view status="CMD_ERROR" >error</view>
+
+	<command name="CreateCompany">
+		<view>createCompany</view>
+
+		<status value="CMD_OK">
+			<forward>AddEmployees</forward>
+		</status>		
+	</command>
+
+	<command name="AddEmployees">
+		<view>addEmployees</view>		
+	</command>		
+
+	<command name="ListCompanies">
+		<view>listCompanies</view>		
+	</command>	
+</control>

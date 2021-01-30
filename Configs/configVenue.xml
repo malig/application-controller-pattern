@@ -1,0 +1,17 @@
+<control>
+	<view>mainVenue</view>
+	<view status="CMD_OK" >mainVenue</view>
+	<view status="CMD_ERROR" >error</view>
+
+	<command name="AddVenue">
+		<view>addVenue</view>
+
+		<status value="CMD_OK">
+			<forward>AddSpace</forward>
+		</status>
+	</command>
+
+	<command name="AddSpace">
+		<view>addSpace</view>
+	</command>
+</control>
